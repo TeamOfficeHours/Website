@@ -32,6 +32,9 @@
 		<p>
 			Not Registered Yet? <a href="officehours/register.php">Register</a>
 		</p>
+		<p>
+		        <a href="officehours/instructor.php">Instructor Login</a>
+		</p>
 	</form>
 
 
