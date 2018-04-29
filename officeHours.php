@@ -12,21 +12,29 @@
 
 </head>
 
-<p><body>
+<body id="body-color">
+      <div id="register">
  
-	    <h3>Search  Contacts Details</h3>
+	    <h3>Search Instructor Office Hours</h3>
  
-	    <p>You  may search either by first or last name</p>
- 
-	    <form  method="post" action="search.php">
- 
-	      <input  type="text" lastName="lastName">
-
- 	      <input  type="text" firstName="firstName">
-
-	      <input  type="submit" name="submit" value="Search table">
- 
-	    </form>
- </body>
-
-</html> 
+	    <td>You  may search either by first or last name</td>
+	    <fieldset style="width:30%">
+	    <form  method="POST" action="search.php">
+	      <table border="0">
+              <tr>
+	      <td>First Name:</td>
+	      <td><input  type="text" name="first_Name" /></td>
+              </tr>
+              <tr>
+              <td>Last Name:</td>
+ 	      <td><input  type="text" name="last_Name"  /></td>
+	      </tr>
+	      <tr>
+	      <td><input  type="submit" name="submit" value="Search" /></td>
+	      </tr>
+	    </form> 
+	    </table>
+	    </fieldset>
+</div>
+</body>
+</html>
